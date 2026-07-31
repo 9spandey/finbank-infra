@@ -13,5 +13,8 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Welcome Message
-        run: echo "GitHub Actions is working successfully."
+      - name: Setup Terraform
+        run: hashicorp/setup-terraform@v3
+
+      - name: Check Terraform Version
+        run: terraform version
