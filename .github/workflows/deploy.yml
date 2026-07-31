@@ -1,0 +1,14 @@
+name: FinBank Pipeline
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print Message
+        run: echo "Pipeline Started Successfully"
