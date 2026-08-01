@@ -4,7 +4,7 @@ locals {
 
   environment = "dev"
 
-  storage_account_name = "stfinbankdev001"
+  storage_account_name = "stfinbankdev4589"
 
   common_tags = {
 
